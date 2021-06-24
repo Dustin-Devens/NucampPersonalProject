@@ -13,21 +13,20 @@
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.min.css" />
     <link rel="stylesheet" href="styles.css" />
 
-
     <title>Devens Development - Home</title>
 </head>
 
 <body class="bg-secondary">
 
     <!-- Navbar with 4 items. Home, About, Services, and Contact. Will collapse/expand at small or above -->
-    <nav class="navbar navbar-light bg-white sticky-top navbar-expand-sm">
+    <nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-sm">
         <div class="container">
             <button class="navbar-toggler text-primary ml-auto" type="button" data-toggle="collapse"
                 data-target="#primeNav">
                 <span><i class="fa fa-hamburger"></i></span>
             </button>
             <div class="navbar-collapse collapse" id="primeNav">
-                <ul class="navbar-nav justify-content-between w-100">
+                <ul class="navbar-nav text-right justify-content-between w-100">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link active"><i class="fa fa-home text-danger"> Home</i></a>
                     </li>
@@ -49,33 +48,94 @@
     <!-- This is the header of the website -->
     <header class="jumbotron-fluid jumbotron">
         <div class="container">
-            <div class="row justify-content-center">
-                <h1>Devens Development Home</h1>
+            <div class="row text-center">
+                <h1 class="col">Devens Development Home</h1>
             </div>
         </div>
     </header>
 
-
-
     <!-- This section will contain company information in left column with a photo in the right column and a button below the photo linking to the about page. -->
-    <div>
-
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-sm-7">
+                <div class="">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima officiis vel quos sit optio
+                        explicabo. Explicabo eveniet dolores libero minus veritatis voluptas assumenda. Neque,
+                        consectetur obcaecati repellendus officiis dolore sed.
+                        Voluptate quisquam facilis magnam illum maiores dolore laudantium natus consectetur eveniet
+                        praesentium, consequatur iusto reiciendis suscipit cupiditate labore inventore aliquam unde est
+                        rerum! Cupiditate itaque delectus debitis! Possimus, architecto a.
+                    </p>
+                </div>
+                <div class="text-center mt-lg-5 mb-3 mb-md-0">
+                    <button class="btn bg-dark" type="button"><a href="about.html" class="text-danger"><i
+                                class="fa fa-info"> Learn More</i></a></button>
+                </div>
+            </div>
+            <div class="col col-sm-5 text-center mb-3">
+                <img src="../../ideas/vader over ahsoka 3.jpg" height="363px">
+            </div>
+        </div>
     </div>
 
-
+    <hr>
 
     <!-- This section will contain 'more content?' (not sure what to put here yet...) -->
-    <div>
-
+    <div class="container my-3 my-md-5">
+        <div class="row">
+            <div class="col text-center">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eos culpa? Error similique qui
+                    quia, quae beatae, saepe nostrum ipsa illum voluptate libero ratione! Neque quos dignissimos
+                    corporis amet voluptatum?
+                    Fuga, doloribus? Ipsa blanditiis in aut explicabo qui, cumque molestias deserunt necessitatibus
+                    repellat quasi quis sunt quam facilis error, veniam nostrum et saepe perspiciatis vel, incidunt vero
+                    enim? Ea, distinctio!
+                    A iure illum quae aperiam incidunt molestiae, vero reprehenderit mollitia ducimus neque ex
+                    temporibus at perspiciatis minima fugit commodi recusandae labore. Ipsum incidunt nesciunt facilis
+                    earum, consequatur illum odit est!
+                    Modi ad necessitatibus culpa quaerat, impedit ipsum! Nam rerum et debitis excepturi accusantium
+                    reiciendis odio cumque ab vero laboriosam facere ut dignissimos ex ducimus voluptatum, similique
+                    fuga velit perspiciatis expedita!
+                </p>
+            </div>
+        </div>
     </div>
 
 
 
     <!-- This will be the footer of the page. Possible to contain social media links along with other info... -->
-    <footer>
+    <footer class="bg-dark">
 
-        <div>
-
+        <div class="row text-center justify-content-center">
+            <div class="col-2">
+                <a href="#facebook" class="text-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg> Facebook
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#twitter" class="text-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg> Twitter
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#linkedin" class="text-danger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg> Linked In
+                </a>
+            </div>
         </div>
 
     </footer>
