@@ -50,13 +50,13 @@
     <header class="jumbotron-fluid jumbotron" id="devensHeader">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-3">
+                <div class="col-12 col-md-3">
                     <a href="index.html" type="button">
-                        <video width="163px" src="../../Images/logos/DEVENS.mp4" alt="" autoplay class="rounded-circle">
+                        <video src="../../Images/logos/DEVENS.mp4" alt="" autoplay id="devensLogo" class="video-fluid rounded-circle">
                         </video>
                     </a>
                 </div>
-                <div class="col-5">
+                <div class="col col-md-7 col-lg-6 col-xl-5">
                     <h1>Devens Development ABOUT</h1>
                 </div>
             </div>
@@ -68,10 +68,10 @@
     <!-- This section will contain company information in the right column with a photo in the left column. -->
     <div class="container my-5">
         <div class="row align-items-center justify-content-center">
-            <div class="col-3 mr-5">
-                <img src="../../Images/impEmblem.png" alt="" class="rounded-circle">
+            <div class="col-8 col-md-5 col-lg-4 mr-5 text-center d-none d-md-block">
+                <img src="../../Images/impEmblem.png" alt="" class="rounded-circle img-fluid">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis hic harum voluptate
                     temporibus aut. Consequatur minus tempore qui molestias eveniet repudiandae iure sint corrupti.
@@ -91,17 +91,24 @@
 
     <!-- This section will describe the type of work we do. There will be a button to link to the services page. -->
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-9">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-9 col-12">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nulla quaerat fugit repudiandae, incidunt saepe, doloribus consectetur aliquam fugiat officia porro quis, necessitatibus repellat. Labore iusto tempore sequi et alias!
                     Iusto a earum ipsum obcaecati dignissimos repudiandae iure omnis vero nisi autem? Inventore omnis officia ipsum autem accusantium nemo, alias, ipsam unde magni beatae accusamus eveniet, consectetur officiis doloremque error.
                     Laboriosam, enim eos. Earum obcaecati fugiat cumque ut deserunt distinctio in vitae. Ipsam molestiae obcaecati, quas quaerat odit aspernatur dolor laudantium corrupti totam similique consequatur repellat. Odio doloribus ea ratione.
                 </p>
             </div>
-            <div class="col-2 mt-4">
-                <button type="button" class="btn btn-dark p-3">
+            <div class="col col-lg-2 text-center">
+                <button type="button" class="btn btn-dark p-3 d-none d-lg-block">
                     <a href="services.html"><span class="text-primary">Browse our<br><i class="fa fa-cog"> services</i></span></a>
+                </button>
+                <button type="button" class="btn btn-dark my-3 d-lg-none">
+                    <a href="services.html">
+                        <span>
+                            <i class="fa fa-cog"></i> Browse our services <i class="fa fa-cog"></i>
+                        </span>
+                    </a>
                 </button>
             </div>
         </div>

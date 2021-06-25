@@ -2,3 +2,9 @@
     background: rgb(63,63,63);
     color: rgb(206, 218, 233);
 }
+
+#devensLogo {
+    height: 163px;
+    max-height: 100%;
+    width: auto;
+}
