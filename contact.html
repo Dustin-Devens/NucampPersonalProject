@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div class="col col-md-7 col-lg-6 col-xl-5">
-                    <h1>Devens Development CONTACT</h1>
+                    <h1><u>Devens Development</u> CONTACT</h1>
                 </div>
             </div>
         </div>
@@ -67,11 +67,53 @@
 
 
     <!-- This will contain a contact form for customers to get in contact with us. -->
-    <div>
-
+    <div class="container">
+        <div class="row border-bottom border-dark">
+            <div class="col text-center">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <div class="col">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" class="form-control" id="phone">
+                </div>
+                <div class="form-check row">
+                    <h6 class="col-12">Preferred contact method</h6>
+                    <label for="emailCheck" class="col-3 form-check-label text-center">Email</label>
+                    <input type="radio" class="col-1 form-check-input text-left" id="emailCheck" name="prefContact">
+                    <label for="phoneCheck" class="col-3 form-check-label text-center">Phone</label>
+                    <input type="radio" class="col-1 form-check-input text-left" id="phoneCheck" name="prefContact">
+                    <label for="textCheck" class="col-3 form-check-label text-center">Text</label>
+                    <input type="radio" class="col-1 form-check-input text-left" id="textCheck" name="prefContact">
+                </div>
+                <div class="form-group">
+                    <label for="contactReason">Reason</label>
+                    <select id="contactReason" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>More Information</option>
+                        <option>Request a quote</option>
+                        <option>Schedule consultation</option>
+                        <option>Feedback</option>
+                        <option>General Question</option>
+                    </select>
+                </div>
+                <div class="form-group col">
+                    <label for="messageBox">Message</label>
+                    <textarea class="form-control rounded-0" id="messageBox" rows="3"></textarea>
+                </div>
+            </form>
+        </div>
     </div>
-
-
 
     <!-- This will contain address/phone/email/twitter/etc... -->
     <div>
